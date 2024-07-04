@@ -4,7 +4,7 @@ import { Header } from './components/header/header'
 import { Bill } from './components/bill/bill'
 import { Porcentag } from './components/porcentag/porcentag'
 import { TextAmount } from './components/textAmount/textAmount'
-import { TotalAmount } from './totalAmount/totalAmount'
+import { TotalAmount } from './components/totalAmount/totalAmount'
 import { Reset } from './components/buttonReset/buttonReset'
 
 function App() {
