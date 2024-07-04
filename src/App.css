@@ -31,7 +31,7 @@ h1 {
 }
 
 .input-bill {
-  background-image: url('./images/icon-dollar.svg');
+  background-image: url('./assets/icon-dollar.svg');
   background-repeat: no-repeat;
   background-position: center left;
   background-origin: content-box;
@@ -106,6 +106,7 @@ button {
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
+  
 }
 
 .data-wrapper {
@@ -117,7 +118,7 @@ button {
 }
 
 .input-people {
-  background-image: url('./images/icon-person.svg');
+  background-image: url('./assets/icon-person.svg');
   background-repeat: no-repeat;
   background-position: center left;
   background-origin: content-box;

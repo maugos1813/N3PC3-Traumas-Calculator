@@ -1,18 +1,33 @@
 import { useState } from 'react'
 import './App.css'
-import { Data } from './components/data/data'
-import { Result } from './components/result/result'
+import { Header } from './components/header/header'
+import { Bill } from './components/bill/bill'
+import { Porcentag } from './components/porcentag/porcentag'
+import { TextAmount } from './components/textAmount/textAmount'
+import { TotalAmount } from './totalAmount/totalAmount'
+import { Reset } from './components/buttonReset/buttonReset'
 
 function App() {
  
 
   return (
     <>
-      <header><img src="./images/logo.svg" alt=""/></header>
+      
+      <Header/>
       <div className="general-wrapper">
-        <Data/>
-        <Result/>
+        <div className="data-wrapper">
+          <Bill/>
+          <Porcentag/>
+        </div>
+
+        <div className="result-wrapper"> 
+          <div className="result-txt">
+          <TextAmount/>
+          <TotalAmount/>
+          </div><Reset/>
+        </div> 
       </div>
+      
     </>
   )
 }
