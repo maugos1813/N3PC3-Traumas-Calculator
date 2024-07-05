@@ -183,3 +183,23 @@ input:focus {
 .input-invalid, .input-invalid:focus {
   border: 2px solid orangered;
 }
+
+.reset-button {
+  background-color: #28c0ac; /* Color de fondo normal */
+  color: #333333; /* Color de texto normal */
+  border: 1px solid #00474b; /* Borde normal */
+  padding: 10px 20px; /* Espaciado interior */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+.reset-button.active {
+  background-color: #0d686d; /* Color de fondo activo */
+  color: #00474b; /* Color de texto activo */
+  border-color: #00474b; /* Color del borde activo */
+}
+
+.warning {
+  color: red;
+  margin-left: 65px;
+}

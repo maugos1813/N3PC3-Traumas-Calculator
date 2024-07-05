@@ -11,7 +11,7 @@ export const Bill = ({bill, setBill}) => {
             type="number"
             value={bill}
             min="0"
-            onChange={(e) => setBill(e.target.value)}
+            onChange={(e) => setBill(parseFloat(e.target.value))}
           />
         </label>
       </div>
